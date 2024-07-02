@@ -1,0 +1,8 @@
+controller:
+  adminPassword: "admin_password"
+  ingress:
+    enabled: true
+    hosts:
+      - "jenkins.yourdomain.com"
+    annotations:
+      kubernetes.io/ingress.class: "nginx"
